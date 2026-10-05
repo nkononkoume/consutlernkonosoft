@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nkonosoft builds software, shares digital resources and supports people and organizations with practical technology services.">
+  <meta name="theme-color" content="#07111f">
+  <title>Nkonosoft | Digital solutions and IT resources</title>
+  <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../profile.css">
+  <link rel="stylesheet" href="../site-preferences.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="Nkonosoft home"><img src="../assets/logo.svg" alt="Nkonosoft logo"><span>Nkono<span>soft</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a><a href="#services">Services</a><a href="#resources">Resources</a><a href="#blog">Blog</a><a href="#profile">Profile</a><a class="nav-cta" href="#contact">Contact me</a>
+        <div class="site-preferences"><label class="language-picker"><span class="sr-only">Language</span><select data-language-switch data-url-fr="../index.html" data-url-en="index.html" aria-label="Language"><option value="fr">FR</option><option value="en">EN</option></select></label><button class="theme-toggle" type="button" data-theme-toggle data-light-label="Switch to light theme" data-dark-label="Switch to dark theme" aria-label="Switch to light theme" title="Switch to light theme"><span data-theme-glyph aria-hidden="true">☼</span></button></div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> INNOVATION • SOFTWARE • TRAINING</div>
+          <h1>Building the <em>digital future</em>, one solution at a time.</h1>
+          <p class="hero-text">Nkonosoft helps individuals, schools and organizations create digital solutions, learn practical IT skills and access professional resources.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#services">Explore services <span>→</span></a><a class="btn btn-ghost" href="#resources">Browse resources</a></div>
+          <div class="mini-stats"><div><strong>∞</strong><span>Digital ideas</span></div><div><strong>360°</strong><span>End-to-end support</span></div><div><strong>24/7</strong><span>Online resources</span></div></div>
+        </div>
+        <div class="hero-art reveal"><div class="orb"></div><div class="code-card"><div class="window-dots"><i></i><i></i><i></i><span>Nkonosoft.dev</span></div><pre><code><b>const</b> vision = {
+  design: <span>"creative"</span>,
+  code: <span>"clean"</span>,
+  impact: <span>"useful"</span>
+};
+
+<span class="accent">build</span>(vision);</code></pre><div class="floating-card card-a">✦ <b>Web</b><small>Modern solutions</small></div><div class="floating-card card-b">⌘ <b>Training</b><small>Learn by doing</small></div></div></div>
+      </div>
+      <a class="scroll-cue" href="#services">↓</a>
+    </section>
+    <section class="section services" id="services"><div class="container">
+      <div class="section-heading reveal"><span class="kicker">WHAT I DO</span><h2>Practical solutions to <em>move your projects forward.</em></h2><p>From idea to outcome: design, development, communication and digital support.</p></div>
+      <div class="service-grid">
+        <article class="service-card reveal"><div class="icon">⌘</div><span class="number">01</span><h3>Software development</h3><p>Web applications, business tools and digital solutions tailored to your needs.</p><a href="#contact">Let's discuss your project →</a></article>
+        <article class="service-card featured reveal"><div class="icon">◈</div><span class="number">02</span><h3>Websites & WordPress</h3><p>Modern, fast, responsive websites designed for a clear user experience.</p><a href="#contact">Build my website →</a></article>
+        <article class="service-card reveal"><div class="icon">✦</div><span class="number">03</span><h3>Design & communication</h3><p>Visual identities, flyers and digital content to strengthen your presence.</p><a href="#contact">Improve my brand →</a></article>
+        <article class="service-card reveal"><div class="icon">▣</div><span class="number">04</span><h3>IT training</h3><p>Hands-on support with office tools, digital skills, programming and online tools.</p><a href="#resources">Start learning →</a></article>
+        <article class="service-card reveal"><div class="icon">⌁</div><span class="number">05</span><h3>Maintenance & advice</h3><p>Troubleshooting, software maintenance and advice for more reliable IT.</p><a href="#contact">Get advice →</a></article>
+        <article class="service-card reveal"><div class="icon">◎</div><span class="number">06</span><h3>AI & automation</h3><p>Thoughtful exploration and integration of AI tools into your projects.</p><a href="#blog">Learn more →</a></article>
+      </div>
+    </div></section>
+    <section class="section resources" id="resources"><div class="container">
+      <div class="section-heading split reveal"><div><span class="kicker">LIBRARY</span><h2>Learn. <em>Practice.</em> Progress.</h2></div><p>Explore and download learning resources. New files can be added to the corresponding folders.</p></div>
+      <div class="resource-tabs"><button class="tab active" data-filter="all">All</button><button class="tab" data-filter="cours">Courses</button><button class="tab" data-filter="epreuves">Exams</button><button class="tab" data-filter="exercices">Exercises</button></div>
+      <div class="resource-grid" id="resourceGrid">
+        <article class="resource-card" data-type="cours"><div class="resource-top purple">PDF <span>COURSE</span></div><div><h3>Excel for beginners</h3><p>Essential concepts to get started with Excel.</p><a class="download" href="../documents/cours/Excel_Debutant.pdf" download>Download ↗</a></div></article>
+        <article class="resource-card" data-type="cours"><div class="resource-top blue">PDF <span>COURSE</span></div><div><h3>Algorithms & programming</h3><p>Variables, conditions, loops and methods.</p><a class="download" href="../documents/cours/algorithmique.pdf" download>Download ↗</a></div></article>
+        <article class="resource-card" data-type="epreuves"><div class="resource-top orange">DOC <span>EXAM</span></div><div><h3>IT exam PA</h3><p>An assessment paper ready to print.</p><a class="download" href="../documents/epreuves/epreuve-informatique.pdf" download>Download ↗</a></div></article>
+        <article class="resource-card" data-type="epreuves"><div class="resource-top green">PDF <span>EXAM</span></div><div><h3>IT exam TA</h3><p>An assessment paper ready to print.</p><a class="download" href="../documents/exercices/epreuveTA.pdf" download>Download ↗</a></div></article>
+      </div>
+      <div class="resource-note">Add new resources to the appropriate documents folder and link them from the homepage.</div>
+    </div></section>
+    <section class="section blog" id="blog"><div class="container">
+      <div class="section-heading split reveal"><div><span class="kicker">THE JOURNAL</span><h2>Ideas, guides & <em>technology.</em></h2></div><a class="text-link" href="#contact">Suggest a topic →</a></div>
+      <div class="blog-grid">
+        <article class="post featured-post reveal"><div class="post-visual visual-ai"><span>AI</span><div class="visual-lines"></div></div><div class="post-body"><span class="post-meta">ARTIFICIAL INTELLIGENCE • 6 MIN</span><h3>Use AI to learn without losing your independence.</h3><p>Simple ways to use AI tools as learning assistants, not replacements.</p><a href="blog/ia-apprendre-sans-dependre.html">Read article →</a></div></article>
+        <article class="post reveal"><div class="post-visual visual-web"><span>&lt;/&gt;</span></div><div class="post-body"><span class="post-meta">DEVELOPMENT • 5 MIN</span><h3>The foundations of a modern, responsive website.</h3><p>Structure, design, performance and mobile experience.</p><a href="blog/site-web-responsive.html">Read article →</a></div></article>
+        <article class="post reveal"><div class="post-visual visual-data"><span>01</span></div><div class="post-body"><span class="post-meta">LEARNING • 4 MIN</span><h3>Learn computing through hands-on projects.</h3><p>Why practice helps you understand and remember.</p><a href="blog/apprendre-par-projets.html">Read article →</a></div></article>
+      </div>
+    </div></section>
+    <section class="section profile" id="profile"><div class="container profile-grid">
+      <div class="profile-card reveal"><img class="profile-photo" src="../assets/profile-portrait.jpg" alt="Illustration of an IT professional"><div class="profile-ring"></div></div>
+      <div class="profile-copy reveal"><span class="kicker">ABOUT</span><h2>IT project <em>engineer.</em></h2><p class="lead">I build useful, accessible digital solutions that fit the realities of the people who use them.</p><p>My work brings together software development, web creation, IT education, digital design and technology research. Nkonosoft is where I combine these skills to build, teach and share.</p><div class="skills"><span>Web development</span><span>Software</span><span>WordPress</span><span>UI / Design</span><span>Training</span><span>AI & digital</span></div><a class="btn btn-primary" href="#contact">Get in touch →</a></div>
+    </div></section>
+    <section class="section contact" id="contact"><div class="container contact-box reveal"><div><span class="kicker">HAVE A PROJECT?</span><h2>Let's build something <em>remarkable.</em></h2><p>Need a website, software, training or digital support? Send me a message.</p></div><div class="contact-actions"><a class="btn btn-primary" href="mailto:danielnkono22@gmai.com">✉ Send an email</a><a class="btn btn-outline" href="https://wa.me/237697233171" target="_blank" rel="noopener">WhatsApp ↗</a></div></div></section>
+  </main>
+  <footer><div class="container footer-inner"><a class="brand" href="#top"><img src="../assets/logo.svg" alt=""><span>Nkono<span>soft</span></span></a><p>© <span id="year"></span> Nkonosoft. All rights reserved.</p><div><a href="#top">Home</a><a href="#services">Services</a><a href="#resources">Resources</a></div></div></footer>
+  <script src="../script.js"></script>
+  <script src="../site-preferences.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Les principes essentiels pour concevoir un site web clair, accessible, rapide et agréable à utiliser sur mobile comme sur ordinateur.">
+  <meta name="theme-color" content="#07111f">
+  <title>Les bases d'un site web moderne et responsive | Nkonosoft</title>
+  <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="blog.css">
+  <link rel="stylesheet" href="../site-preferences.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="brand" href="../index.html#accueil" aria-label="Nkonosoft, accueil"><img src="../assets/logo.svg" alt=""><span>Nkono<span>soft</span></span></a>
+      <div class="article-nav"><a href="../index.html#blog">Le journal</a><a class="nav-cta" href="../index.html#ressources">Ressources</a><div class="site-preferences"><label class="language-picker"><span class="sr-only">Langue</span><select data-language-switch data-url-fr="../blog/site-web-responsive.html" data-url-en="../en/blog/site-web-responsive.html" aria-label="Langue"><option value="fr">FR</option><option value="en">EN</option></select></label><button class="theme-toggle" type="button" data-theme-toggle data-light-label="Passer au thème clair" data-dark-label="Passer au thème sombre" aria-label="Passer au thème clair" title="Passer au thème clair"><span data-theme-glyph aria-hidden="true">☼</span></button></div></div>
+    </nav>
+  </header>
+  <main class="article-main container">
+    <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="../index.html#accueil">Accueil</a><span>/</span><a href="../index.html#blog">Blog</a><span>/</span><span>Site responsive</span></nav>
+    <header class="article-heading">
+      <span class="kicker">DÉVELOPPEMENT WEB · 5 MIN DE LECTURE</span>
+      <h1>Les bases d'un site web moderne et responsive</h1>
+      <p class="article-intro">Un bon site ne se résume pas à une apparence soignée. Il doit aider chaque visiteur à trouver l'information, accomplir son objectif et revenir, quel que soit l'écran utilisé.</p>
+      <div class="article-byline"><span>Nkonosoft</span><span>Repères de conception</span></div>
+    </header>
+    <div class="article-cover topic-web" aria-hidden="true"><span>UNE STRUCTURE CLAIRE</span><strong>&lt;web<span>/</span>&gt;</strong></div>
+    <div class="article-layout">
+      <article class="article-content">
+        <p class="article-lead">Responsive signifie que la mise en page s'adapte à la largeur et aux conditions d'utilisation de l'écran, plutôt que de simplement rétrécir une version conçue pour ordinateur. Cette adaptation commence par la structure et les priorités, bien avant les effets visuels.</p>
+        <h2 id="objectif">Commencer par l'objectif du site</h2>
+        <p>Avant de choisir les couleurs ou les animations, définissez ce que le site doit permettre : présenter une activité, vendre un produit, recueillir des demandes ou partager des ressources. Pour chaque page, formulez l'action principale attendue et placez l'information qui aide à l'accomplir au premier plan.</p>
+        <p>Une navigation courte, des intitulés explicites et une hiérarchie claire évitent au visiteur de devoir deviner. Chaque page devrait répondre rapidement à trois questions : où suis-je, que puis-je faire ici et quelle est l'étape suivante ?</p>
+        <h2 id="structure">Construire une structure solide</h2>
+        <p>Le HTML sémantique donne un sens aux différentes parties de la page : une navigation, un contenu principal, des sections avec des titres hiérarchisés et un pied de page. Cette organisation aide les technologies d'assistance, les navigateurs et les personnes qui parcourent le contenu rapidement.</p>
+        <p>Le CSS peut ensuite organiser les blocs avec des mises en page souples, comme Flexbox ou Grid, et des largeurs fluides. Une approche mobile d'abord est souvent efficace : commencez par rendre le contenu lisible dans une colonne étroite, puis enrichissez la disposition quand l'espace le permet.</p>
+        <h2 id="mobile">Vérifier l'expérience sur mobile</h2>
+        <p>Sur un téléphone, les petits défauts deviennent vite des obstacles : liens trop rapprochés, texte qui déborde, menus difficiles à utiliser ou formulaire pénible à remplir. Testez les pages à plusieurs largeurs, avec une navigation au clavier et, si possible, sur un véritable appareil.</p>
+        <p>Les commandes doivent être faciles à toucher et leurs libellés compréhensibles. Les images doivent rester dans leur conteneur, les tableaux avoir une solution de consultation adaptée et les informations importantes ne pas dépendre uniquement du survol ou d'une animation.</p>
+        <h2 id="accessibilite">Ne pas oublier l'accessibilité</h2>
+        <p>Un contraste suffisant, des titres bien ordonnés, des textes alternatifs utiles pour les images informatives et des formulaires associés à des libellés améliorent l'expérience de nombreuses personnes. Un lien doit décrire sa destination ; un bouton doit annoncer clairement l'action qu'il déclenche.</p>
+        <p>Évitez de transmettre une information uniquement par la couleur. Assurez-vous aussi que les éléments interactifs sont visibles au clavier et que le contenu reste compréhensible si une animation est désactivée.</p>
+        <h2 id="performance">Soigner vitesse et maintenance</h2>
+        <p>Des images trop lourdes ou des scripts inutiles retardent l'affichage. Redimensionnez et compressez les médias, limitez les dépendances et chargez seulement ce qui sert réellement à la page. Vérifiez aussi que les liens et les formulaires fonctionnent : un design réussi ne compense pas une action qui échoue.</p>
+        <p>La mise en ligne n'est pas la fin du projet. Prévoyez les mises à jour, les sauvegardes et une vérification périodique des contenus. Pour un site qui collecte des informations, expliquez clairement leur usage et protégez leur transmission.</p>
+        <h2 id="checklist">Une vérification avant publication</h2>
+        <ul>
+          <li>Les informations principales et l'action attendue sont faciles à repérer.</li>
+          <li>Les pages restent lisibles et utilisables sur petit écran.</li>
+          <li>Les liens, boutons et formulaires ont été testés.</li>
+          <li>La navigation fonctionne au clavier et les titres sont cohérents.</li>
+          <li>Les images sont pertinentes, décrites si nécessaire et optimisées.</li>
+        </ul>
+        <aside class="article-callout"><strong>À retenir</strong><p>Un site moderne est d'abord utile, accessible et fiable. Le responsive design est une manière de servir le contenu sur tous les écrans, pas un simple ajustement décoratif.</p></aside>
+        <div class="article-end"><a href="../index.html#services">Découvrir les services web de Nkonosoft →</a><a href="ia-apprendre-sans-dependre.html">Lire : apprendre avec l'IA sans en dépendre →</a></div>
+      </article>
+      <aside class="article-aside"><span class="aside-title">Dans cet article</span><nav aria-label="Sommaire"><a href="#objectif">Partir de l'objectif</a><a href="#structure">Structurer le contenu</a><a href="#mobile">Tester sur mobile</a><a href="#accessibilite">Penser accessibilité</a><a href="#performance">Vitesse et maintenance</a><a href="#checklist">Vérifier avant publication</a></nav></aside>
+    </div>
+  </main>
+  <script src="../site-preferences.js"></script>
+  <footer><div class="container footer-inner"><a class="brand" href="../index.html#accueil"><img src="../assets/logo.svg" alt=""><span>Nkono<span>soft</span></span></a><p>&copy; <span id="year">2026</span> Nkonosoft</p><div><a href="../index.html#blog">Tous les articles</a></div></div></footer>
+</body>
+</html>

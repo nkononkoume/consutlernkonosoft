@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nkonosoft — solutions logicielles, ressources numériques, cours, épreuves et expertise informatique.">
+  <meta name="theme-color" content="#07111f">
+  <title>Nkonosoft | Solutions numériques & ressources informatiques</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="profile.css">
+  <link rel="stylesheet" href="site-preferences.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#accueil" aria-label="Nkonosoft accueil">
+        <img src="assets/logo.svg" alt="Logo Nkonosoft">
+        <span>Nkono<span>soft</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#ressources">Ressources</a>
+        <a href="#blog">Blog</a>
+        <a href="#profil">Profil</a>
+        <a class="nav-cta" href="#contact">Me contacter</a>
+        <div class="site-preferences">
+          <label class="language-picker"><span class="sr-only">Langue</span><select data-language-switch data-url-fr="index.html" data-url-en="en/index.html" aria-label="Langue"><option value="fr">FR</option><option value="en">EN</option></select></label>
+          <button class="theme-toggle" type="button" data-theme-toggle data-light-label="Passer au thème clair" data-dark-label="Passer au thème sombre" aria-label="Passer au thème clair" title="Passer au thème clair"><span data-theme-glyph aria-hidden="true">☼</span></button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="accueil">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> INNOVATION • LOGICIEL • FORMATION</div>
+          <h1>Construire le <em>futur numérique</em>, une solution à la fois.</h1>
+          <p class="hero-text">Nkonosoft accompagne les particuliers, établissements et organisations dans la création de solutions digitales, la formation informatique et le partage de ressources professionnelles.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#services">Découvrir les services <span>→</span></a>
+            <a class="btn btn-ghost" href="#ressources">Voir les ressources</a>
+          </div>
+          <div class="mini-stats">
+            <div><strong>∞</strong><span>Idées numériques</span></div>
+            <div><strong>360°</strong><span>Accompagnement</span></div>
+            <div><strong>24/7</strong><span>Ressources en ligne</span></div>
+          </div>
+        </div>
+        <div class="hero-art reveal">
+          <div class="orb"></div>
+          <div class="code-card">
+            <div class="window-dots"><i></i><i></i><i></i><span>Nkonosoft.dev</span></div>
+            <pre><code><b>const</b> vision = {
+  design: <span>"créatif"</span>,
+  code: <span>"propre"</span>,
+  impact: <span>"utile"</span>
+};
+
+<span class="accent">build</span>(vision);</code></pre>
+            <div class="floating-card card-a">✦ <b>Web</b><small>Solutions modernes</small></div>
+            <div class="floating-card card-b">⌘ <b>Formation</b><small>Apprendre par la pratique</small></div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#services">↓</a>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading reveal"><span class="kicker">CE QUE JE FAIS</span><h2>Des solutions pensées pour <em>faire avancer</em> vos projets.</h2><p>De l'idée au résultat : conception, développement, communication et accompagnement numérique.</p></div>
+        <div class="service-grid">
+          <article class="service-card reveal"><div class="icon">⌘</div><span class="number">01</span><h3>Développement logiciel</h3><p>Applications web, outils métiers et solutions numériques adaptés à vos besoins.</p><a href="#contact">Parlons du projet →</a></article>
+          <article class="service-card featured reveal"><div class="icon">◈</div><span class="number">02</span><h3>Sites web & WordPress</h3><p>Sites vitrines modernes, rapides, responsifs et pensés pour une bonne expérience utilisateur.</p><a href="#contact">Créer mon site →</a></article>
+          <article class="service-card reveal"><div class="icon">✦</div><span class="number">03</span><h3>Design & communication</h3><p>Identité visuelle, flyers, supports numériques et contenus pour renforcer votre présence.</p><a href="#contact">Améliorer mon image →</a></article>
+          <article class="service-card reveal"><div class="icon">▣</div><span class="number">04</span><h3>Formation informatique</h3><p>Accompagnement pratique en bureautique, numérique, programmation et outils digitaux.</p><a href="#ressources">Apprendre →</a></article>
+          <article class="service-card reveal"><div class="icon">⌁</div><span class="number">05</span><h3>Maintenance & conseil</h3><p>Diagnostic, maintenance logicielle et conseils pour une informatique plus fiable.</p><a href="#contact">Obtenir un conseil →</a></article>
+          <article class="service-card reveal"><div class="icon">◎</div><span class="number">06</span><h3>Solutions IA & automatisation</h3><p>Découverte et intégration raisonnée d'outils d'intelligence artificielle dans les projets.</p><a href="#blog">En savoir plus →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resources" id="ressources">
+      <div class="container">
+        <div class="section-heading split reveal"><div><span class="kicker">BIBLIOTHÈQUE</span><h2>Apprendre. <em>Pratiquer.</em> Progresser.</h2></div><p>Retrouvez des ressources pédagogiques à consulter et télécharger. Les fichiers peuvent être ajoutés simplement dans les dossiers du site.</p></div>
+        <div class="resource-tabs">
+          <button class="tab active" data-filter="all">Tout</button><button class="tab" data-filter="cours">Cours</button><button class="tab" data-filter="epreuves">Épreuves</button><button class="tab" data-filter="exercices">Exercices</button>
+        </div>
+        <div class="resource-grid" id="resourceGrid">
+          <article class="resource-card" data-type="cours"><div class="resource-top purple">PDF <span>COURS</span></div><div><h3>Initiation à Excel</h3><p>Notions essentielles pour debuter sur Excel.</p><a class="download" href="documents/cours/Excel_Debutant.pdf" download>Télécharger ↗</a></div></article>
+          <article class="resource-card" data-type="cours"><div class="resource-top blue">PDF <span>COURS</span></div><div><h3>Algorithmique & programmation</h3><p>Variables, conditions, boucles et méthodes.</p><a class="download" href="documents/cours/algorithmique.pdf" download>Télécharger ↗</a></div></article>
+          <article class="resource-card" data-type="epreuves"><div class="resource-top orange">PDF <span>ÉPREUVE</span></div><div><h3>Épreuve d'informatique PA</h3><p>Sujet d'évaluation prêt à imprimer.</p><a class="download" href="documents/epreuves/epreuve-informatique.pdf" download>Télécharger ↗</a></div></article>
+          <article class="resource-card" data-type="epreuves"><div class="resource-top green">PDF <span>EPREUVES</span></div><div><h3>Épreuve d'informatique TA</h3><p>Sujet d'évaluation prêt à imprimer.</p><a class="download" href="documents/exercices/epreuveTA.pdf" download>Télécharger ↗</a></div></article>
+        </div>
+        <div class="resource-note">💡 <b></b>  <code>index.html</code>.</div>
+      </div>
+    </section>
+
+    <section class="section blog" id="blog">
+      <div class="container">
+        <div class="section-heading split reveal"><div><span class="kicker">LE JOURNAL</span><h2>Idées, tutoriels & <em>numérique.</em></h2></div><a class="text-link" href="#contact">Proposer un sujet →</a></div>
+        <div class="blog-grid">
+          <article class="post featured-post reveal"><div class="post-visual visual-ai"><span>IA</span><div class="visual-lines"></div></div><div class="post-body"><span class="post-meta">INTELLIGENCE ARTIFICIELLE • 6 MIN</span><h3>Bien utiliser l'IA pour apprendre sans perdre son autonomie.</h3><p>Quelques principes simples pour utiliser les outils d'IA comme assistants plutôt que comme remplaçants.</p><a href="blog/ia-apprendre-sans-dependre.html">Lire l'article →</a></div></article>
+          <article class="post reveal"><div class="post-visual visual-web"><span>&lt;/&gt;</span></div><div class="post-body"><span class="post-meta">DÉVELOPPEMENT • 5 MIN</span><h3>Les bases d'un site web moderne et responsive.</h3><p>Structure, design, performance et expérience mobile.</p><a href="blog/site-web-responsive.html">Lire l'article →</a></div></article>
+          <article class="post reveal"><div class="post-visual visual-data"><span>01</span></div><div class="post-body"><span class="post-meta">PÉDAGOGIE • 4 MIN</span><h3>Apprendre l'informatique par des projets concrets.</h3><p>Pourquoi pratiquer permet de mieux retenir et comprendre.</p><a href="blog/apprendre-par-projets.html">Lire l'article →</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section profile" id="profil">
+      <div class="container profile-grid">
+        <div class="profile-card reveal"><img class="profile-photo" src="assets/profile-portrait.jpg" alt="Illustration d'un professionnel du numérique"><div class="profile-ring"></div></div>
+        <div class="profile-copy reveal"><span class="kicker">À PROPOS</span><h2>Ingénieur des travaux <em>informatiques.</em></h2><p class="lead">Je conçois des solutions numériques utiles, accessibles et adaptées aux réalités des utilisateurs.</p><p>Mon approche associe développement logiciel, création web, pédagogie informatique, design numérique et veille technologique. Nkonosoft est l'espace où je rassemble ces compétences pour créer, transmettre et partager.</p><div class="skills"><span>Développement web</span><span>Logiciel</span><span>WordPress</span><span>UI / Design</span><span>Formation</span><span>IA & numérique</span></div><a class="btn btn-primary" href="#contact">Échanger avec moi →</a></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-box reveal">
+        <div><span class="kicker">UN PROJET ?</span><h2>Faisons quelque chose de <em>remarquable.</em></h2><p>Besoin d'un site, d'un logiciel, d'une formation ou d'un accompagnement numérique ? Écrivez-moi.</p></div>
+        <div class="contact-actions"><a class="btn btn-primary" href="mailto:danielnkono22@gmai.com">✉ Envoyer un e-mail</a><a class="btn btn-outline" href="https://wa.me/237697233171" target="_blank" rel="noopener">WhatsApp ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-inner"><a class="brand" href="#top"><img src="assets/logo.svg" alt=""><span>Nkono<span>soft</span></span></a><p>© <span id="year"></span> Nkonosoft. Tous droits réservés.</p><div><a href="#top">Accueil</a><a href="#services">Services</a><a href="#ressources">Ressources</a></div></div></footer>
+  <script src="script.js"></script>
+  <script src="site-preferences.js"></script>
+</body>
+</html>
